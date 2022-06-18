@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiverr Fitness</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@200&display=swap');
+</style>
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url("img6.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        overflow: hidden;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+        display: inline-block;
+    }
+
+    .left img {
+        display: block;
+        width: 80px;
+        filter: invert(100%);
+        margin: auto;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px 535px;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        /* border: 2px solid blue; */
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+        padding: 0px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 33px 15px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: #f53434;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 12px 9px;
+        color: white;
+        background-color: black;
+        padding: 2px 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .btn:hover {
+        background-color: #383333;
+    }
+
+    .container {
+        /* border: 2px solid purple; */
+        margin: 90px 838px;
+        padding-top: 10px;
+        width: 33%;
+        border-radius: 10px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 333px;
+        margin: 18px auto;
+        height: 26px;
+        padding: 4px;
+        border-radius: 6px;
+        border-width: 1px;
+        cursor: pointer;
+    }
+
+    .container h2 {
+        text-align: center;
+        line-height: 50px;
+        font-size: 28px;
+        color: #383333;
+    }
+
+    .container button {
+        display: block;
+        margin: 24px auto;
+        width: 345px;
+        height: 40px;
+        border-radius: 6px;
+    }
+</style>
+
+<body>
+    <header>
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img3.webp" alt="">
+            <div>Fiverr Fitness</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join The Best Gym Of Pune Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality" required>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</html>
